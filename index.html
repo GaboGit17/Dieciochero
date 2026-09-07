@@ -12,26 +12,26 @@
     
     <!-- Intento de Navbar sacada de bootstrap -->
 
-    <div class="container">
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
       <span class="fs-4 fw-bold">Dieciochera</span>
     </a>
     <ul class="nav nav-pills">
       <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Hero</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Información del evento</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Cartas</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">cronograma de la actividad</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">mapa de cómo llegar</a></li>
+      <li class="nav-item"><a href="#hero" class="nav-link">Hero</a></li>
+      <li class="nav-item"><a href="#info" class="nav-link">Información del evento</a></li>
+      <li class="nav-item"><a href="#cartas" class="nav-link">Cartas</a></li>
+      <li class="nav-item"><a href="#cronograma" class="nav-link">Cronograma de la actividad</a></li>
+      <li class="nav-item"><a href="#mapita" class="nav-link">Mapa de como llegar</a></li>
     </ul>
 
-</header>
-    </div>
+    </header>
+  </div>
 
     <!-- hero sacado de bootrsap -->
-    <div class="container my-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 p-4 p-md-5 border rounded-4 shadow-sm bg-body-tertiary">
+    <div id="hero" class="container my-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 p-4 p-md-5 border border-primary rounded-4 shadow-sm bg-body-tertiary">
         
         <!-- imagen -->
         <div class="col-10 col-sm-8 col-lg-6">
@@ -56,8 +56,8 @@
     <br>
   
     <!-- Informacion del evento -->
-    <div class="container my-5">
-      <div class="row align-items-center g-5 p-4 p-md-5 border rounded-4 shadow-sm bg-body-tertiary">
+    <div id="info" class="container my-5">
+      <div class="row align-items-center g-5 p-4 p-md-5 border border-danger rounded-4 shadow-sm bg-body-tertiary">
         
         <!-- Texto (Izquierda) -->
         <div class="col-lg-6">
@@ -88,7 +88,7 @@
 
         <!-- Imagen Vertical (Derecha) -->
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="imagenes\HeroFoto.jpg" class="d-block mx-lg-auto img-fluid rounded-3" alt="Feria Dieciochera" width="400" height="600" loading="lazy">
+          <img src="imagenes\pampilla_coquimbo.jpg" class="d-block mx-lg-auto img-fluid rounded-3" alt="Feria Dieciochera" width="700" height="700" loading="lazy">
         </div>
 
       </div>
@@ -96,32 +96,48 @@
   
 
 
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <div id="cartas" class="row g-4 justify-content-center">
 
-    
-    <div style="flex: 1; min-width: 250px; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 24px; text-align: center; border: 1px solid #e0e0e0;">
-      <h2 style="font-size: 1.1rem; color: #333333; margin-top: 0; letter-spacing: 1px;">UBICACIÓN</h2>
-      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">Pampilla de Coquimbo, Región de Coquimbo</p>
+      
+      <div class="col-12 col-md-4">
+        <div class="card h-100 text-center shadow-sm border-danger rounded-4 p-3">
+          <div class="card-body">
+            <h2 class="card-title h6 text-uppercase text-dark tracking-wide mb-3" style="letter-spacing: 1px;">UBICACIÓN</h2>
+            <p class="card-text text-secondary small mb-0">Pampilla de Coquimbo, Región de Coquimbo</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-12 col-md-4">
+        <div class="card h-100 text-center shadow-sm border-primary rounded-4 p-3">
+          <div class="card-body">
+            <h2 class="card-title h6 text-uppercase text-dark tracking-wide mb-3" style="letter-spacing: 1px;">FECHA | HORA</h2>
+            <p class="card-text text-secondary small mb-0">17/09/2026 al 20/09/2026</p>
+            <p class="card-text text-secondary small mb-0">11:00 hasta 23:00 hrs</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-12 col-md-4">
+        <div class="card h-100 text-center shadow-sm border-danger rounded-4 p-3">
+          <div class="card-body">
+            <h2 class="card-title h6 text-uppercase text-dark tracking-wide mb-3" style="letter-spacing: 1px;">VALOR ENTRADA</h2>
+            <p class="card-text text-secondary small mb-0">$3.000</p>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    
-    <div style="flex: 1; min-width: 250px; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 24px; text-align: center; border: 1px solid #e0e0e0;">
-      <h2 style="font-size: 1.1rem; color: #333333; margin-top: 0; letter-spacing: 1px;">FECHA | HORA</h2>
-      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">17/09/2026 al 20/09/2026</p>
-      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">11:00 hasta 23:00 hrs</p>
-    </div>
-
-    
-    <div style="flex: 1; min-width: 250px; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 24px; text-align: center; border: 1px solid #e0e0e0;">
-      <h2 style="font-size: 1.1rem; color: #333333; margin-top: 0; letter-spacing: 1px;">VALOR ENTRADA</h2>
-      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">$3.000</p>
-    </div>
-
-    </div>
-
-    <!-- Cronograma de Actividades con table de bootsrap-->
+    <br>
 
       <!-- Cronograma de Actividades con table de bootstrap-->
+
+      <div id="cronograma" class="container my-5">
+      <div class="row align-items-center g-5 p-4 p-md-5 border border-primary rounded-4 shadow-sm bg-body-tertiary">
+
       <table class="table">
         <thead>
           <tr>
@@ -171,9 +187,45 @@
         </tbody>
       </table>
 
+      </div>
+      </div>
+
+
+      <br>
+      <!-- Mapa sacado de google maps-->
+      <div id="mapita" class="container my-5">
+      <div class="row align-items-center g-5 p-4 p-md-5 border border-danger rounded-4 shadow-sm bg-body-tertiary">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">¿Como puedes llegar?</h1>
+      <div class="ratio ratio-21x9">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.7322830479516!2d-71.3522503434456!3d-29.95911363944479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691c90067fcc82b%3A0x97344ab844da0ab3!2sPampilla%20de%20coquimbo!5e0!3m2!1ses!2scl!4v1788821912539!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      </div>
+      </div>
+      
+      
+
+
 
 
     <!-- Un footer con enlaces relevantes-->
 
+  <div class="text-center">
+    <footer>
+      <ul class="nav justify-content-center border-danger border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Fuentes</a></li>
+        <li class="nav-item"><a href="#cartas" class="nav-link">Precios</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Consultas</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre Nosotros</a></li>
+      </ul>
+      <p> 2026 Todos los derechos a nosotros.</p>
+    </footer>
+  </div>
+
+
+
 </body>
 </html>
+
+
+
