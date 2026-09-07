@@ -21,12 +21,156 @@
       <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
       <li class="nav-item"><a href="#" class="nav-link">Hero</a></li>
       <li class="nav-item"><a href="#" class="nav-link">Información del evento</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">3 atractivos del evento usando cards</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">cronograma de la actividad, usando por ejemplo una tabla (bootstrap)</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Cartas</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">cronograma de la actividad</a></li>
       <li class="nav-item"><a href="#" class="nav-link">mapa de cómo llegar</a></li>
     </ul>
+
 </header>
     </div>
+
+    <!-- hero sacado de bootrsap -->
+    <div class="container my-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 p-4 p-md-5 border rounded-4 shadow-sm bg-body-tertiary">
+        
+        <!-- imagen -->
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="imagenes\HeroFoto.jpg" class="d-block mx-lg-auto img-fluid rounded-3" alt="Feria Dieciochera" width="700" height="500" loading="lazy">
+        </div>
+        
+        <!-- Texto -->
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bienvenido a la Feria Diechiochera!!</h1>
+          <p class="lead">La mejor Feria de la Región, La mejor comida, La mejor Bebida</p>
+          
+          <!-- Imagenes -->
+          <div class="mt-3">
+            <img src="imagenes\Flag_of_Chile.png" alt="Bandera de Chile" class="img-fluid rounded" width="150" height="auto">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <br>
+  
+    <!-- Informacion del evento -->
+    <div class="container my-5">
+      <div class="row align-items-center g-5 p-4 p-md-5 border rounded-4 shadow-sm bg-body-tertiary">
+        
+        <!-- Texto (Izquierda) -->
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Información del evento</h1>
+          <p>
+            La Feria Dieciochera llega con todo este 2026!
+          </p>
+
+          <p>Como cada año, la celebración más grande de la región trae música en vivo, gastronomía, juegos, ferias y distintas actividades.</p>
+
+          <p>Este año sera especial, debido a que el dinero recaudado en las entradas y demas eventos seran para ayudar a las familias afectadas por el 
+            temporal del pasado mes
+          </p>
+
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">¿Como puedes ayudar?</h1>
+          
+          <p>El valor de tu entrada sera de ayuda para los afectados por el temporal</p>
+
+          <p>También las actividades como las ramadas familiares, los campeonatos de cueca, 
+            los shows de artistas locales y las subastas criollas serán fundamentales para financiar más ayuda y reconstruir las zonas dañadas.</p>
+
+           <p>Por ultimo, habra un sector que servira como punto de donacion, puedes aportar con 
+            alimentos no perecibles, agua y diferentes articulos para el hogar.
+           </p>
+
+
+        </div>
+
+        <!-- Imagen Vertical (Derecha) -->
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="imagenes\HeroFoto.jpg" class="d-block mx-lg-auto img-fluid rounded-3" alt="Feria Dieciochera" width="400" height="600" loading="lazy">
+        </div>
+
+      </div>
+    </div>  
+  
+
+
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+
+    
+    <div style="flex: 1; min-width: 250px; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 24px; text-align: center; border: 1px solid #e0e0e0;">
+      <h2 style="font-size: 1.1rem; color: #333333; margin-top: 0; letter-spacing: 1px;">UBICACIÓN</h2>
+      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">Pampilla de Coquimbo, Región de Coquimbo</p>
+    </div>
+
+    
+    <div style="flex: 1; min-width: 250px; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 24px; text-align: center; border: 1px solid #e0e0e0;">
+      <h2 style="font-size: 1.1rem; color: #333333; margin-top: 0; letter-spacing: 1px;">FECHA | HORA</h2>
+      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">17/09/2026 al 20/09/2026</p>
+      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">11:00 hasta 23:00 hrs</p>
+    </div>
+
+    
+    <div style="flex: 1; min-width: 250px; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 24px; text-align: center; border: 1px solid #e0e0e0;">
+      <h2 style="font-size: 1.1rem; color: #333333; margin-top: 0; letter-spacing: 1px;">VALOR ENTRADA</h2>
+      <p style="color: #666666; font-size: 0.95rem; margin-bottom: 0;">$3.000</p>
+    </div>
+
+    </div>
+
+    <!-- Cronograma de Actividades con table de bootsrap-->
+
+      <!-- Cronograma de Actividades con table de bootstrap-->
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Hora</th>
+            <th scope="col">Actividad</th>
+            <th scope="col">Lugar</th>     
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <th scope="row">Toda la jornada (11:00 hasta 23:00)</th>
+            <td>Entrega de Donaciones</td>
+            <td>Zona Familiar</td>  
+          </tr>
+
+          <tr>
+            <th scope="row">11:00</th>
+            <td>Apertura de puertas y juegos tradicionales</td>
+            <td>Zona Familiar</td>        
+          </tr>
+          <tr>
+            <th scope="row">13:00</th>
+            <td>Muestra gastronómica y almuerzo criollo</td>
+            <td>Patio de Comidas</td>    
+          </tr>
+          <tr>
+            <th scope="row">15:00</th>
+            <td>Campeonato de cueca y bailes folclóricos</td>
+            <td>Escenario Principal</td>   
+          </tr>
+          <tr>
+            <th scope="row">17:00</th>
+            <td>Torneo de rayuela y juegos típicos</td>
+            <td>Cancha de Rayuela</td>  
+          </tr>
+          <tr>
+            <th scope="row">19:00</th>
+            <td>Música en vivo con artistas locales</td>
+            <td>Escenario Principal</td> 
+          </tr>
+          <tr>
+            <th scope="row">21:00</th>
+            <td>Gran cumbia bailable de cierre</td>
+            <td>Escenario Principal</td>
+          </tr>
+        </tbody>
+      </table>
+
 
 
     <!-- Un footer con enlaces relevantes-->
